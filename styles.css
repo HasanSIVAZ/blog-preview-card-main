@@ -1,0 +1,33 @@
+.container{
+    height: 960px;
+    width: 1440px;
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 522px;
+    width: 384px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    
+}
+.text{
+
+    padding: 24px 24px 0px 24px;
+}
+.author{
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    align-items: center;
+   
+}
